@@ -31,7 +31,10 @@ pip install openai
 ### Setup
 1. Clone this repository
 2. Open `ossuary_gdd_demo.ipynb` in Jupyter or VS Code
-3. Replace `"YOUR_API_KEY_HERE"` in Cell 1 with your OpenAI API key
+3. Set your OpenAI API key as an environment variable:
+   - Mac/Linux: `export OPENAI_API_KEY="your-key-here"`
+   - Windows: `set OPENAI_API_KEY="your-key-here"`
+   - Or paste your key directly into Cell 1 locally — never commit it to GitHub
 4. Run all cells top to bottom
 
 ### What You Will See
